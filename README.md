@@ -1,18 +1,13 @@
-echo "# alx-project-0x00-setup" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/FaisalMohammedElorm/alx-project-0x00-setup.git
-git push -u origin mainObjective: You will understand the essence of creating a project using cli-tools like npx, coupled with create-next-app. There are multiple ways you can create a project using the create-next-app cli-tool.
+# Airbnb Application Clone System - Routing
 
-The first approach will be to use the command npx create-next-app@latest This option will provide you with multiple prompts to help set up your initial project
-The next approach is to be familiar with the [options] ahead of creating the project. This is the option we will be using.
-Instructions:
+This project demonstrates **simple routing** in Next.js using the **Pages Router**.
 
-Start a new visual studio code (vscode instance), open the terminal using the Terminal -> New Terminal
-Navigate to your project directory
-Run the command npx create-next-app@latest alx-project-0x00 –typescript
-Select Yes for the following option [Eslint, Tailwind CSS, import alias]
-Select No for /src directory and App Router
-Start your application using the command npm run dev -- -p 3000
+## Routes Added
+- `/` → Home page (entry point)
+- `/landing` → Landing Page
+- `/about` → About Page
+
+## How to Run
+1. Install dependencies  
+   ```bash
+   npm install

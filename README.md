@@ -17,8 +17,13 @@ This task introduces **reusable components** in the `components/` directory.
 
 ## Assets
 - Images moved to `public/assets/images/house.png` and `public/assets/images/star.png`.
+  
+## Screenshots
+<img width="1366" height="768" alt="Screenshot (189)" src="https://github.com/user-attachments/assets/690344a3-3560-405b-abc8-5b8160c0e3c4" />
+
 
 ## How to Run
 1. Install dependencies  
    ```bash
    npm install
+
